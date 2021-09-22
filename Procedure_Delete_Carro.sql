@@ -1,0 +1,8 @@
+CREATE PROCEDURE ExcluirCarro
+	@IdCarro INT
+AS
+BEGIN
+
+DELETE FROM Carro WHERE Id = @IdCarro
+
+END;

@@ -1,0 +1,10 @@
+CREATE PROCEDURE EditarCor
+	@CorId INT, @Nome VARCHAR(30)
+AS
+BEGIN
+
+	UPDATE Cor
+	SET Nome = @Nome
+	WHERE Id = @CorId;
+
+END;

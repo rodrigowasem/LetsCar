@@ -1,0 +1,8 @@
+CREATE PROCEDURE ExcluirCor
+	@CorId INT
+AS
+BEGIN
+
+DELETE FROM Cor WHERE Id = @CorId
+
+END;

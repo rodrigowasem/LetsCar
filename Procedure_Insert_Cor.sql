@@ -1,0 +1,9 @@
+CREATE PROCEDURE InserirCor
+	@NomeCor VARCHAR(30)
+AS
+BEGIN
+
+INSERT INTO Cor(Nome)
+	VALUES (@NomeCor)
+
+END

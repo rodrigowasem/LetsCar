@@ -1,0 +1,8 @@
+CREATE PROCEDURE ExcluirModelo
+	@ModeloId INT
+AS
+BEGIN
+
+DELETE FROM Modelo WHERE Id = @ModeloId
+
+END;

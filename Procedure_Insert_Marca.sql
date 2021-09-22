@@ -1,0 +1,9 @@
+CREATE PROCEDURE InserirMarca
+	@Nome VARCHAR(30)
+AS
+BEGIN
+
+INSERT INTO Marca(Nome)
+	VALUES (@Nome);
+
+END;
